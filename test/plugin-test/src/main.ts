@@ -23,3 +23,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+
+// if (import.meta.hot) {
+  // HMR code
+  // console.log('HMR')
+//   import.meta.hot.accept()
+// }
+
+
+// if (import.meta.env.SSR) {
+//   // ... server only logic
+//   console.log('Server only logic')
+// } else {
+//   console.log('Client only logic')
+// }
